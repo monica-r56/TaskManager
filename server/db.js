@@ -1,10 +1,10 @@
 const Pool=require("pg").Pool;
 const pool=new Pool({
-    user: "postgres",
-    password:"SrirangaDB",
-    host: "localhost",
-    port:5432,
-    database:"taskmanager"
+    user: "",
+    password:"",
+    host: "",
+    port:,
+    database:""
 });
 
 module.exports=pool;
